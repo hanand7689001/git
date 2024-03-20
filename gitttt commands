@@ -1,0 +1,95 @@
+ex 1:-
+mkdir ______
+cd _______
+git --version
+git init
+git status
+vi add har.txt
+git add har.txt
+git commit -m"done har"
+git config --global user.name"_______"
+git config --global user.email"____"
+
+
+
+Exp :- 2
+git branch harsh
+git checkout harsh
+git checkout master
+git merge harsh
+git remote add origin "--repository link--"
+git push origin master
+
+
+
+Exp:- 3
+git branch anand
+git status
+vi smaple.txt
+git add sample.txt
+git checkout anand
+git stash
+git stash list
+git satsh apply
+git stash pop
+
+
+
+Exp:- 4
+git clone ---repository link=---
+
+
+Exp:-5
+git branch feature-branch
+git add aand.txt
+git commit -m"done rebase"
+git fetch origin
+git checkout feature-branch
+git rebase master feature-branch
+
+
+
+Exp:- 6
+git merge feature-branch
+git commit -m"custom commit message"
+
+
+
+Exp:- 7
+git checkout master
+git tag v1.0
+git tag
+git tag -a v1.1 -m "tag for release"
+git tag
+git show v1.0
+git tag -l"v1.*"
+git push origin v1.0
+
+
+
+
+Exp:- 8
+git reflog
+git cherry-pick   ----code of reflog------
+git log
+
+
+
+
+Exp:-9
+git log
+git show  ----the ode of head->master of log-----
+
+Exp:-10
+git log --author="userid" --after="2024-01-01" --before="2024-12-01"
+git log -n 5
+
+
+Exp:=11
+git log -n 5
+
+
+Exp:-12
+git log --oneline
+git reset --hard HEAD
+
