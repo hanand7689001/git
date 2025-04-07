@@ -11,15 +11,13 @@ git config --global user.name"_______"
 git config --global user.email"____"
 
 
-
-Exp :- 2
+Exp :- 2         
 git branch harsh
 git checkout harsh
 git checkout master
 git merge harsh
 git remote add origin "--repository link--"
 git push origin master
-
 
 
 Exp:- 3
